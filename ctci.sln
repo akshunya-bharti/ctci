@@ -1,8 +1,16 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI.Runner", "CTCI.Runner\CTCI.Runner.csproj", "{964069FB-2CF6-BC35-4D52-F980C09E9CC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "problems", "problems", "{7B1CD3C2-53A1-4D72-A7A9-B849C3758594}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch01_Strings", "Ch01_Strings", "{EE3F5CDA-8B1C-4F4A-834C-0F6884BD9340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_IsUnique", "01_IsUnique", "{2A5E7981-99A6-49D3-BC39-58088ECBBD06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution", "problems\Ch01_Strings\01_IsUnique\csharp\Solution.csproj", "{51F4186F-EAEF-4B40-8A5D-32BA84216C4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,11 +22,20 @@ Global
 		{964069FB-2CF6-BC35-4D52-F980C09E9CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{964069FB-2CF6-BC35-4D52-F980C09E9CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{964069FB-2CF6-BC35-4D52-F980C09E9CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F4186F-EAEF-4B40-8A5D-32BA84216C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F4186F-EAEF-4B40-8A5D-32BA84216C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F4186F-EAEF-4B40-8A5D-32BA84216C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F4186F-EAEF-4B40-8A5D-32BA84216C4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9247CF65-D3A9-49AE-B772-0D5775466E51}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE3F5CDA-8B1C-4F4A-834C-0F6884BD9340} = {7B1CD3C2-53A1-4D72-A7A9-B849C3758594}
+		{2A5E7981-99A6-49D3-BC39-58088ECBBD06} = {EE3F5CDA-8B1C-4F4A-834C-0F6884BD9340}
+		{51F4186F-EAEF-4B40-8A5D-32BA84216C4C} = {2A5E7981-99A6-49D3-BC39-58088ECBBD06}
 	EndGlobalSection
 EndGlobal

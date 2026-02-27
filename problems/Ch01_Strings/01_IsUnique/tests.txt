@@ -1,7 +1,28 @@
-2
+9
 1
-5
-25
+a
+true
 1
-6
-36
+aa
+false
+1
+ab
+true
+1
+aba
+false
+1
+Aa
+true
+1
+aAaa
+false
+1
+abc def
+true
+1
+abc defa
+false
+1
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+true
