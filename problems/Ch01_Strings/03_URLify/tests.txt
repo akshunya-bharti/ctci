@@ -1,0 +1,37 @@
+9
+2
+Mr John Smith    
+13
+Mr%20John%20Smith
+2
+HelloWorld
+10
+HelloWorld
+2
+ John      
+5
+%20John
+2
+A  B      
+4
+A%20%20B
+2
+End Space      
+9
+End%20Space
+2
+         
+3
+%20%20%20
+2
+NoSpaceHere      
+11
+NoSpaceHere
+2
+   Leading      
+3
+%20%20%20
+2
+A B C      
+5
+A%20B%20C
