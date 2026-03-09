@@ -1,0 +1,49 @@
+12
+2
+a
+a
+true
+2
+a
+b
+false
+2
+ab
+ba
+true
+2
+abc
+cba
+true
+2
+abc
+ab
+false
+2
+abc
+abd
+false
+2
+aab
+aba
+true
+2
+aab
+abb
+false
+2
+abc
+abcc
+false
+2
+aA
+Aa
+true
+2
+abc def
+fed cba
+true
+2
+abc def
+fed ccb
+false
