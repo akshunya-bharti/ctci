@@ -1,0 +1,25 @@
+8
+1
+tact coa
+true
+1
+aabbcc
+true
+1
+aabbccd
+true
+1
+aabbccdd
+true
+1
+abc
+false
+1
+aabbcce
+true
+1
+Tact Coa
+true
+1
+a a b b c
+true
